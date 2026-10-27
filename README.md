@@ -12,7 +12,7 @@ Claude should make normal technical decisions, use its tools, and finish the job
 
 Addressed the clear-text-storage finding in `tools/test_install_claude.py`: the fixture now clearly identifies its content as public, synthetic test data—not real credentials. Strengthened checks confirm that file contents are not echoed to either output stream when installation fails, and that the original file remains unchanged. All **45 offline tests passed**, and the follow-up CodeQL analysis completed successfully. Installer behavior and security-scanning rules are unchanged.
 
-[Fix and patch](https://github.com/SaltKode/obedient-claude-skill/commit/6c5ca74c89b2873714115d699df6cca047f3001d) · [Quality checks](https://github.com/SaltKode/obedient-claude-skill/actions/runs/39533629370) · [CodeQL analysis](https://github.com/SaltKode/obedient-claude-skill/actions/runs/39533629133)
+[Fix and patch](https://github.com/Saltshard/obedient-claude-skill/commit/6c5ca74c89b2873714115d699df6cca047f3001d) · [Quality checks](https://github.com/Saltshard/obedient-claude-skill/actions/runs/39533629370) · [CodeQL analysis](https://github.com/Saltshard/obedient-claude-skill/actions/runs/39533629133)
 
 ## 🎯 What it improves
 
@@ -80,7 +80,7 @@ For a project-local **skill-only** installation through the skills CLI, see [the
 
 ### Claude chat / Cowork
 
-1. Download the [skill-only ZIP](https://github.com/SaltKode/obedient-claude-skill/raw/refs/heads/main/work-with-me.zip).
+1. Download the [skill-only ZIP](https://github.com/Saltshard/obedient-claude-skill/raw/refs/heads/main/work-with-me.zip).
 2. Open **Customize → Skills**, upload it, and enable **Work With Me**.
 3. For the standing preferences, merge [this instruction block](instructions/CLAUDE-chat-preferences.txt) into **Settings → Instructions for Claude**, where available.
 

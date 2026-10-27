@@ -5,8 +5,8 @@ The normal Python installer remains the **full setup**: standing agreement plus 
 From the target project, inspect discovery before installation:
 
 ```bash
-npx skills@1.7.4 add SaltKode/obedient-claude-skill --list
-npx skills@1.7.4 add SaltKode/obedient-claude-skill --skill work-with-me -a claude-code --copy
+npx skills@1.7.4 add Saltshard/obedient-claude-skill --list
+npx skills@1.7.4 add Saltshard/obedient-claude-skill --skill work-with-me -a claude-code --copy
 ```
 
 This CLI version requires Node.js 22.20+. The first invocation may download the CLI. The explicit version makes the distribution procedure reviewable; review newer CLI releases before upgrading it. The skill source is the repository's current default branch, not frozen by the CLI version. Review the source separately. Interactive installation is intentional; `--yes` is not needed for the normal setup.
